@@ -1,0 +1,13 @@
+.o-container {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 100%;
+    @include medium-up {
+        max-width: 740px;
+    }
+    @include large-up {
+        max-width: 1140px;
+    }
+}

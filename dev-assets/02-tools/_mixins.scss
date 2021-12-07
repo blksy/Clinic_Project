@@ -6,7 +6,7 @@
 }
 
 //Large device
-@mixin medium-up {
+@mixin large-up {
     @media(min-width: #{$bp-large}) {
         @content
     }
