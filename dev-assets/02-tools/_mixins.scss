@@ -1,0 +1,13 @@
+//Medium device 
+@mixin medium-up {
+    @media(min-width: #{$bp-medium}) {
+        @content
+    }
+}
+
+//Large device
+@mixin medium-up {
+    @media(min-width: #{$bp-large}) {
+        @content
+    }
+}

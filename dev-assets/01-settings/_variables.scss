@@ -1,0 +1,30 @@
+//Kolory
+$white: #fff;
+$black: #000;
+$gray-light: #F9FBFE;
+$gray-dark: #444;
+$blue-dark: #3E5CC5;
+$blue-light: #D3EAFA;
+$blue-text: #3B99E1;
+$green: #60DC64;
+$blue-gradient: linear-gradient(45deg, #3E5CC5 0%, #5B8AF8 100%);
+//Tekst
+$primary-font-size: 1rem;
+$font-size-1: $primary-font-size * 3; // ~`48px
+$font-size-2: $primary-font-size * 1.5; //~`24px
+$font-size-3: $primary-font-size * 1.125; // ~`18px
+$font-size-4: $primary-font-size * 1; //~`16px
+$font-size-5: $primary-font-size * .875; //~`14px
+$font-size-6: $primary-font-size * .75; //~`12px
+$font-size-7: $primary-font-size * .625; //~`10px
+$base-line-height: 1.5;
+$small-line-height: 1.2;
+$large-line-height: 1.8;
+//Siatka
+$grid-base:10px;
+$gutter: $grid-base * 1.5;
+//Zaokrąglenie
+$border-radius: $grid-base *.5;
+//Breakpointy
+$bp-medium: '800px';
+$bp-large: '1200px';

@@ -1,0 +1,19 @@
+{
+    "version": 3,
+    "mappings": "AIcA,AAAA,EAAE,CAAC;EACC,KAAK,EAAE,GAAG;CAIb;;AAVG,MAAM,EAAC,SAAS,EAAE,MAAM;EAK5B,AAAA,EAAE,CAAC;IAGK,KAAK,EAAE,IAAI;GAElB",
+    "sources": [
+        "style.scss",
+        "01-settings/_settings.scss",
+        "01-settings/_variables.scss",
+        "02-tools/_tools.scss",
+        "02-tools/_mixins.scss",
+        "03-generic/_generic.scss",
+        "04-elements/_elements.scss",
+        "05-objects/_objects.scss",
+        "06-components/_components.scss",
+        "07-templates/_templates.scss",
+        "08-utilities/_utilities.scss"
+    ],
+    "names": [],
+    "file": "style.css"
+}
