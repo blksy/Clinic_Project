@@ -9,7 +9,7 @@
         text-transform: uppercase;
         width: 100%;
         &:hover {
-            color: $blue-dark;
+            color: orange;
             transition: .25s ease-in-out;
         }
         @include large-up {

@@ -2,40 +2,46 @@
     width: 100%;
     padding-left: $gutter;
     padding-right: $gutter;
-    &--medium25 {
+    &--md25 {
         @include medium-up {
             flex: 0 0 25%;
             max-width: 25%;
         }
     }
-    &--medium33 {
+    &--md33 {
         @include medium-up {
             flex: 0 0 33.3333%;
             max-width: 33.3333%;
         }
     }
-    &--medium50 {
+    &--md50 {
         @include medium-up {
             flex: 0 0 50%;
             max-width: 50%;
         }
     }
-    &--large25 {
+    &--lg25 {
         @include large-up {
             flex: 0 0 25%;
             max-width: 25%;
         }
     }
-    &--large33 {
+    &--lg33 {
         @include large-up {
             flex: 0 0 33.3333%;
             max-width: 33.3333%;
         }
     }
-    &--large50 {
+    &--lg50 {
         @include large-up {
             flex: 0 0 50%;
             max-width: 50%;
+        }
+    }
+    &--lg75 {
+        @include large-up {
+            flex: 0 0 75%;
+            max-width: 75%;
         }
     }
 }

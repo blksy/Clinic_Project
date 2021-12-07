@@ -6,8 +6,8 @@
     text-align: right;
 }
 
-.u-text-large-right {
+.u-text-lg-right {
     @include large-up {
-        text-align: right;
+        text-align: right !important;
     }
 }

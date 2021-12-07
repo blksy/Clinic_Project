@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pl">
+<html lang="en">
 
 <head>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
@@ -11,26 +11,36 @@
 </head>
 
 <body>
-    <div class="o-container">
-        <div class="o-row" style="background-color: burlywood;">
-            <div class="o-col o-col--medium50 o-col--large25" style="height: 400px; margin-bottom: 50px;">
-                <a class="c-btn c-btn--accent" href="#">Zobacz więcej</a>
-                <a class="c-btn c-btn--dark-blue" href="#">Zobacz więcej</a>
-                <a class="c-btn c-btn--light" href="#">Zobacz więcej</a>
-                <a class="c-btn c-btn--primary" href="#">Zobacz więcej</a>
-                <a class="c-btn c-btn--outline" href="#">Zobacz więcej</a>
-            </div>
-            <div class="o-col o-col--medium50 o-col--large25" style="height: 400px; margin-bottom: 50px;">
-                <div class="c-icon-box">
-                    <div class="c-icon-box__image">
-                        <img class="c-icon-box__icon" src="images/icons/ikona-1.png" alt="ikona pierwsza">
+    <header class="t-site-header">
+        <div class="o-container">
+            <div class="t-site-header__top">
+                <div class="o-row o-row--center-y">
+                    <div class="o-col o-col--lg25">
+                        <img src="images/logo.png" alt="logo">
                     </div>
-                    <h4 class="c-heading c-heading--level4 c-heading--upper">Pełny zakres</h4>
-                    <p class="c-icon-box__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum accusamus eos ab?</p>
+                    <div class="o-col o-col--lg75 t-site-header__menu">
+                        <nav class="c-nav">
+                            <a class="c-nav__item" href="#">Home</a>
+                            <a class="c-nav__item" href="#">About us</a>
+                            <a class="c-nav__item" href="#">Services</a>
+                            <a class="c-nav__item" href="#">News</a>
+                            <a class="c-nav__item" href="#">Departments</a>
+                            <a class="c-nav__item" href="#">Contact</a>
+                        </nav>
+                    </div>
                 </div>
             </div>
+            <div class="t-site-header__divide">
+            </div>
+            <div class="t-site-header__hero">
+                <h1 class="c-heading c-heading--level1 c-heading--white"> Total health care solution</h1>
+                <p class="t-site-header__intro-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facilis error quas incidunt repellendus iure, maxime voluptatum a suscipit sapiente aliquid atque illo perferendis tenetur, earum libero.</p>
+                <a class="c-btn c-btn--accent" href="#">read more</a>
+                <span class="t-site-header__btn-divide">OR</span>
+                <a class="c-btn  c-btn--dark-blue" href="#">check offer</a>
+            </div>
         </div>
-    </div>
+    </header>
 
 </body>
 
