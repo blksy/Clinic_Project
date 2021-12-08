@@ -397,6 +397,20 @@ a:hover {
   margin-right: 25px;
 }
 
+.t-assets {
+  padding-top: 60px;
+}
+
+.t-assets__item {
+  margin-bottom: 40px;
+}
+
+@media (min-width: 1200px) {
+  .t-assets__item {
+    margin-bottom: 100px;
+  }
+}
+
 .t-site-header {
   background: url("../images/header-tlo.jpg") 0 0 no-repeat;
 }
