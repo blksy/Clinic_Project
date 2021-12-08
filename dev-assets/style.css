@@ -411,6 +411,39 @@ a:hover {
   }
 }
 
+.t-posts-list__item {
+  margin-bottom: 40px;
+}
+
+@media (min-width: 1200px) {
+  .t-posts-list__item {
+    margin-bottom: 20px;
+  }
+}
+
+.t-posts-list__image {
+  margin-bottom: 25px;
+  max-width: 349px;
+  position: relative;
+}
+
+.t-posts-list__text {
+  text-align: left;
+}
+
+.t-posts-list__badge {
+  background: linear-gradient(45deg, #3E5CC5 0%, #5B8AF8 100%);
+  border-radius: 15px 0 0 15px;
+  color: #fff;
+  font-size: 0.875rem;
+  font-weight: bold;
+  padding: .5rem 1rem;
+  position: absolute;
+  top: 70%;
+  text-transform: uppercase;
+  right: 0;
+}
+
 .t-site-header {
   background: url("../images/header-tlo.jpg") 0 0 no-repeat;
 }

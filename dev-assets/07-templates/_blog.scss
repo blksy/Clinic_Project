@@ -1,0 +1,28 @@
+.t-posts-list {
+    &__item {
+        margin-bottom: $grid-base * 4;
+        @include large-up {
+            margin-bottom: $grid-base *2;
+        }
+    }
+    &__image {
+        margin-bottom: $grid-base * 2.5;
+        max-width: 349px;
+        position: relative;
+    }
+    &__text {
+        text-align: left;
+    }
+    &__badge {
+        background: $blue-gradient;
+        border-radius: $border-radius 0 0 $border-radius;
+        color: $white;
+        font-size: $font-size-5;
+        font-weight: bold;
+        padding: .5rem 1rem;
+        position: absolute;
+        top: 70%;
+        text-transform: uppercase;
+        right: 0;
+    }
+}
